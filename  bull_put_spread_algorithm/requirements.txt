@@ -1,0 +1,8 @@
+alpaca-py
+pandas
+numpy
+scipy
+ta
+logging
+os
+json
