@@ -3,6 +3,4 @@ pandas
 numpy
 scipy
 ta
-logging
-os
-json
+
