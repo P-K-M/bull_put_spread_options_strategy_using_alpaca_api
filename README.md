@@ -1,17 +1,28 @@
 Bull Put Spread Options Trading Strategy
+
 Prepared for: Potential Investor Prepared by: Algorithm Development Team
+
 Date: September 11, 2025
+
 Executive Summary
+
 This document describes a professional, industry-standard implementation of a Bull Put Spread algorithmic trading
 strategy. The strategy targets consistent option premium income by selling out-of-the-money (OTM) put credit
 spreads on U.S. equities and ETFs. Positions are entered early in the trading week and managed for a short time
 horizon (typical holding period: 5 trading days) with rigorous risk controls.
+
 Strategy Overview
+
 Objective: Generate repeatable income with a defined downside using Bull Put Spreads (credit spreads).
+
 Instruments: U.S. equity and ETF options.
+
 Holding Period: Short-term; primary cadence is Monday entry ® Friday exit (5-day cycle).
+
 Order Type: Limit orders only; multi-leg order handling for clean fills.
+
 Universe: Pre-screened bullish instruments by liquidity and technical indicators.
+
 Mathematical Framework & Payoff
 A Bull Put Spread consists of:
 - Sell 1 put at strike K_s (short put).
